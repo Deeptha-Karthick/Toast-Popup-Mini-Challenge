@@ -1,0 +1,66 @@
+.App {
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-style {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.toaster {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.normal {
+  background-color: grey;
+  border: 2px solid black;
+}
+
+.success {
+  border: 2px solid green;
+  color: green;
+  background-color: aquamarine;
+}
+
+.error {
+  border: 2px solid red;
+  color: red
+  background-color: rgb(193, 91, 91);
+}
+
+.warning {
+  border: 2px solid orange;
+  color: orange;
+  background-color: rgb(214, 120, 62);
+}
+
+.info {
+  border: 2px solid blue;
+  color: blue;
+  background-color: teal(214, 120, 62);
+}
+
+.close-btn {
+  cursor: pointer;
+}
+
+.single-toaster {
+  display: flex;
+}
